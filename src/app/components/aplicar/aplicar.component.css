@@ -1,0 +1,118 @@
+/* Configuracion contenido */
+
+a{
+  text-decoration: none;
+}
+
+.contenido{
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* Configuración formulario */
+
+.formulario{
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.formulario h2{
+  font-size: 45px;
+  /* color: rgb(8, 54, 140); */
+  color: rgb(54, 54, 54);
+}
+
+.elementos{
+  /* border: 2px red solid; */
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+/* Configuracion imagen */
+
+.imagen{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img{
+  width: 400px;
+}
+
+/* Configuración form */
+
+.form{
+  /* border: 2px black solid; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.form input{
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+}
+
+/* Ajustes botones */
+
+.formulario .botones{
+  display: flex;
+  width: 50%;
+}
+
+.formulario .botones input[type="submit"]{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 200px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario .botones input[type="reset"]{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 200px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Seccion aplica */
+
+.aplica .fondo{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1b6b88;
+  /* border: 2px red solid; */
+  height: 424px ;
+}
+
+.aplica img{
+  width: 500px;
+}
+
+.aplica h3{
+  color: white;
+  font-size: 100px;
+}

@@ -1,0 +1,49 @@
+/* Configuración del header */
+
+header{
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: white;
+}
+
+header nav{
+    /* border: 2px red solid; */
+    display: flex;
+}
+
+header img{
+    width: 300px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    /* border: 2px red solid; */
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+
+header ul #boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 60px;
+    width: 200px;
+}
+
+header #boton{
+    color: white;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header ul #curso{
+    color: rgb(19, 151, 151);
+}

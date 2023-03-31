@@ -1,0 +1,30 @@
+footer{
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    /* border-top: 2px gray solid; */
+    background-color: rgb(19, 19, 19);
+}
+
+footer .info{
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+
+footer .info a{
+    color: rgb(19, 151, 151);
+    text-decoration: none;
+}
+
+footer .redes{
+    font-size: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+footer .redes a{
+    color: white;
+}
