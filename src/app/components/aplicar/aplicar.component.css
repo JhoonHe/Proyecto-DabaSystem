@@ -9,6 +9,7 @@ a{
   display: flex;
   flex-direction: column;
   gap: 100px;
+  background-color: white;
 }
 
 /* Configuración formulario */
